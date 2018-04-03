@@ -12,7 +12,7 @@ module.exports = {
     },
     //入口文件输出配置
     output: {
-        path: 'docs/js/',
+        path: path.resolve(__dirname, 'docs/js/'),
         filename: '[name].js'
     },
     module: {
@@ -52,8 +52,8 @@ module.exports = {
             },
             { 
                 context: path.join(__dirname, './src'),
-                from: "demo.md",
-                to: '../demo.md',
+                from: "d.md",
+                to: '../d.md',
                 force: true
             },
             { 

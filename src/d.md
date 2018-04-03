@@ -1,14 +1,15 @@
 ## 微信公众号格式化工具
 
-GitHub 地址：[https://github.com/barretlee/online-markdown](https://github.com/barretlee/online-markdown)
 
 > 使用微信公众号编辑器有一个十分头疼的问题——粘贴出来的代码，格式错乱，而且特别丑。这块编辑器能够解决这个问题。
 
-### Changelog
+## 用法
 
-- 适配 Android
-- 支持代码不转行，横向滚动条
-- 支持页面主题样式配置
+- 复制你的markdown
+- 粘贴到这里
+- 点击预览
+- 选择样式
+- 复制到微信公众号编辑页面
 
 ### 代码示例
 
@@ -28,7 +29,7 @@ var OnlineMarkdown = {
   load: function() {
     return $.ajax({
       type: 'GET',
-      url: params.path || './demo.md',
+      url: params.path || './d.md',
       dateType: 'text',
       timeout: 2000
     }).then(function(data) {
@@ -58,6 +59,11 @@ echo 'hello,world'
 |-----|-----|------|
 | 苹果 | 1   | nice |
 | 橘子 | 2   | job |
+
+
+### 关于我
+
+![Ryan Miao](http://oe20lp6p0.bkt.clouddn.com/me/wechat-public.jpg)
 
 ### 关于小胡子哥
 

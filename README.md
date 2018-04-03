@@ -1,14 +1,19 @@
 # Online Markdown Converter
 
-A online markdown converter specially for Wechat Public formatting.
+微信公众号markdown编辑器。可以快速的把markdown渲染成适合公众号使用的样式。适合码农。
 
-- Online Address: <http://md.barretlee.com/>
-- Issue & Suggestion: <https://github.com/barretlee/online-markdown/issues/new>
 
-### Changelog
+## demo
 
-- 支持更换代码样式主题
-- 代码长度溢出时横向滚动
+
+## 如何运行本项目
+
+1. clone
+2. `yarn install`
+3. `yarn build`
+4. `yarn start`
+5. 访问localhost:8083
+
 
 ### LICENSE
 
