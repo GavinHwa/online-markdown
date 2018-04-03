@@ -63,11 +63,8 @@ echo 'hello,world'
 
 ### 关于我
 
-![Ryan Miao](http://oe20lp6p0.bkt.clouddn.com/me/wechat-public.jpg)
+![Ryan Miao](./imgs/wechat-public.jpg)
 
-### 关于小胡子哥
-
-![微信公众号](http://md.barretlee.com/imgs/qrcode.jpg)
 
 ---
 
